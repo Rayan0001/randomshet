@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: url('');
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-      font-family: 'Arial', sans-serif;
-    }
-    /* Add more styles as needed */
-    .content {
-      padding: 20px;
-    }
-  </style>
+    <title>Global Announcement System</title>
+    <!-- You can add your CSS styles here -->
 </head>
 <body>
-  <div class="content">
-    <h1>Database</h1>
-    <p>Username: test
-Password: test</p>
-  </div>
+    <h1>Global Announcement System</h1>
+    <p>Use this form to send announcements:</p>
+    
+    <form id="announcementForm">
+        <label for="announcementText">Announcement:</label>
+        <textarea id="announcementText" rows="4" cols="50" placeholder="Enter your announcement here"></textarea><br><br>
+        
+        <button type="submit">Send</button>
+    </form>
+
+    <!-- You can add JavaScript for handling form submission here -->
 </body>
 </html>
