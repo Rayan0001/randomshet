@@ -29,6 +29,7 @@
             border: 1px solid #000; /* Black border around the button */
             cursor: pointer; /* Add a pointer cursor on hover */
             border-radius: 2px; /* Add slightly rounded corners */
+            display: block; /* Display the button as a block element */
         }
 
         button:hover {
@@ -50,9 +51,8 @@
         <label for="announcementText" style="display: none;">Announcement:</label>
         <textarea id="announcementText" rows="4" cols="50" placeholder="Enter your announcement here"></textarea><br><br>
         
+        <!-- Success message moved directly under the button -->
         <button type="submit" id="submitButton">Send</button>
-        
-        <!-- Success message moved under the button -->
         <p class="success-message">Announcement sent successfully!</p>
     </form>
 
