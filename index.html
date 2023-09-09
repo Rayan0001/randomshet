@@ -13,7 +13,6 @@
 
         label {
             font-family: 'Courier New', Courier, monospace; /* Change the font for labels */
-            display: none; /* Hide the label */
         }
 
         textarea {
@@ -21,7 +20,17 @@
         }
 
         button {
-            font-family: 'Arial Black', sans-serif; /* Change the font for buttons */
+            font-family: 'Georgia', Times, serif; /* Change the font for buttons */
+            background-color: #4CAF50; /* Green background color */
+            color: white; /* White text color */
+            padding: 10px 20px; /* Add padding to the button */
+            border: none; /* Remove button border */
+            cursor: pointer; /* Add a pointer cursor on hover */
+            border-radius: 10px; /* Add rounded corners */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darken the button color on hover */
         }
     </style>
 </head>
@@ -29,7 +38,7 @@
     <h1>Global Announcement System</h1>
     
     <form id="announcementForm">
-        <label for="announcementText" style="display: none;">Announcement:</label>
+        <label for="announcementText">Announcement:</label>
         <textarea id="announcementText" rows="4" cols="50" placeholder="Enter your announcement here"></textarea><br><br>
         
         <button type="submit">Send</button>
