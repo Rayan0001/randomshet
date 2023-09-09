@@ -8,20 +8,17 @@
         }
 
         h1 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change the font for the header */
-            text-align: left; /* Align the header to the left */
-            margin-left: 10%; /* Move the header to the left */
+            font-family: 'Helvetica', Arial, sans-serif; /* Change the font for the header */
+            text-align: center; /* Center-align the header */
         }
 
         p {
-            font-family: Verdana, sans-serif; /* Change the font for paragraphs */
-            text-align: left; /* Align the paragraph to the left */
-            margin-left: 10%; /* Move the paragraph to the left */
+            font-family: 'Arial', sans-serif; /* Change the font for paragraphs */
+            text-align: center; /* Center-align the paragraph */
         }
 
         form {
             text-align: left; /* Align the form contents to the left */
-            margin-left: 10%; /* Move the form to the left */
         }
 
         label {
@@ -31,29 +28,23 @@
         textarea {
             font-family: 'Tahoma', sans-serif; /* Change the font for the textarea */
             width: 80%; /* Adjust the width of the textarea */
+            margin-left: 10%; /* Move the textarea to the left */
         }
 
         button {
             font-family: 'Arial Black', sans-serif; /* Change the font for buttons */
             margin-left: 10%; /* Move the button to the left */
-            background-color: #4CAF50; /* Change the background color of the button */
-            color: white; /* Change the text color of the button */
-            padding: 10px 20px; /* Add padding to the button */
-            border: none; /* Remove button border */
-            cursor: pointer; /* Add a pointer cursor on hover */
-        }
-
-        button:hover {
-            background-color: #45a049; /* Darken the button color on hover */
         }
     </style>
 </head>
 <body>
     <h1>Global Announcement System</h1>
+    <p>Use this form to send announcements:</p>
+    
     <form id="announcementForm">
-        <label for="announcementText">Enter announcement:</label>
+        <label for="announcementText">Announcement:</label>
         <br>
-        <textarea id="announcementText" rows="4" cols="45" placeholder="Enter your announcement here"></textarea><br><br>
+        <textarea id="announcementText" rows="4" cols="50" placeholder="Enter your announcement here"></textarea><br><br>
         
         <button type="submit">Send</button>
     </form>
